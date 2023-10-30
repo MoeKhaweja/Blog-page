@@ -5,11 +5,12 @@
 
 ul,
 ol {
-  padding-left: 20px; /* Adjust the value to control the margin level */
+  padding-left: 20px;
   list-style-position: inside;
 }
 
 body {
+  background-color: #faf8ed;
   font-family: "Segoe UI";
   margin-top: 150px;
   margin-left: 300px;
@@ -17,9 +18,6 @@ body {
   margin-bottom: 200px;
 }
 
-.blog-body {
-  width: 600px;
-}
 h1,
 h2,
 h3,
@@ -28,4 +26,21 @@ h5,
 h6 {
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.blog-body {
+  width: 550px;
+}
+
+.container {
+  padding-right: 10px;
+
+  display: inline-block;
+  vertical-align: top;
+}
+.img-size-hero {
+  width: 100%;
+}
+.img-size-thumb {
+  width: 100px;
 }
